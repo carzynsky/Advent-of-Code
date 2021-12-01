@@ -1,3 +1,6 @@
+# read all lines, cast to integer check if current value is higher than previous
+# if yes then increment counter
+
 filePath = 'data/input.txt'
 file = open(filePath, 'r')
 lines = file.readlines()
