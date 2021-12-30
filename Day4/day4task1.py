@@ -37,7 +37,7 @@ for number in order:
             k = 0
             for col in row:
                 if(number == col):
-                    bingoBoards[i][j][k] = 'X'
+                    bingoBoards[i][j][k] = 'X' # mark
                 k += 1
             j += 1
         i += 1

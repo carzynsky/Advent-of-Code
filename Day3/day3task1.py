@@ -8,6 +8,9 @@ isInitialized = False
 lengthOfLine = 0
 linesCounter = 0
 
+# read all lines
+# save amount of positive bit on each position to list
+
 for line in lines:
     if(isInitialized == False):
         lengthOfLine = len(line.strip())
@@ -19,6 +22,7 @@ for line in lines:
             positiveBitCounterList[i] += 1
     linesCounter += 1
 
+# check if there's more '1' or '0' on each bit (if amount is higher than half, then there are more '1')
 for bit in positiveBitCounterList:
     if(bit >= linesCounter/2):
         gammaRate += '1'

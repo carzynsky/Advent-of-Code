@@ -4,6 +4,7 @@ lines = file.readlines()
 horizontalPosition = 0
 depth = 0
 
+# read all lines, check instruction after split of data and add/substract depth, add horizontalPosition
 for line in lines:
     data = line.split()
     if(data[0] == 'forward'):

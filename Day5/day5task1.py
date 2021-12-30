@@ -1,5 +1,5 @@
 filePath = 'input.txt'
-dim = 1000s
+dim = 1000
 diagramMatrix = []
 
 # prepare diagram Matrix
