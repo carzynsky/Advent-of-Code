@@ -1,7 +1,8 @@
 filePath = 'input.txt'
-dim = 1000
+dim = 1000s
 diagramMatrix = []
 
+# prepare diagram Matrix
 for i in range(0,dim):
     diagramMatrix.append([0]*dim)
 

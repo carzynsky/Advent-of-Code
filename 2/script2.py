@@ -5,6 +5,9 @@ horizontalPosition = 0
 depth = 0
 aim = 0
 
+# read all lines, check instruction after split of data and add/substract aim, add horizontalPosition and compute
+# depth based on aims
+
 for line in lines:
     data = line.split()
     if(data[0] == 'forward'):
